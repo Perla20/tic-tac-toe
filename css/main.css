@@ -1,0 +1,89 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+ /*Configuracion inicial de la página*/
+
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+
+  }
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+ /*Declaramos la fuente para toda la página web*/
+body
+{
+
+    background-image: url('../assets/imgs/unicornio.jpg');
+    background-position: right; /*Posicionamos el fondo en el centro*/
+    background-repeat:no-repeat;/*Indicamos que no se repita el fondo*/
+    background-size: 25%;/*Ajustamos el tamaño de la imagen de fondo*/
+
+
+}
+
+.board{
+    margin:100px auto 0;
+    border-collapse:collapse;
+}
+.board td{
+    width: 100px;
+    height: 100px;
+    border-radius: 9px;
+    border-style: ridge;
+    border-width: 5px;
+    text-align: center;
+    background-color: #99f;
+    font-size: 65px;
+    font-family: cursive;
+}
+
+.board td:hover{
+   background-color: aquamarine;
+
+   max-width: 100%;
+
+}
+
+
+/*Resetear*/
+
+ #contenedor-button{
+     text-align: center
+ }
+
+  button{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 900;
+    border: 4px outset aquamarine;
+    background-color: aquamarine;
+  }
+
+
+  #container-result{
+
+    border-radius: 8px;
+    text-align:center;
+
+
+
+
+    border-style: dotted;
+  }
+  #container-result h1{
+    text-align: center;
+  }
